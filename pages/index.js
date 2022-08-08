@@ -8,10 +8,7 @@ const HomePage = (props) => {
     <>
       <Head>
         <title>React Meetup</title>
-        <meta
-          name="description"
-          content="Browse a huge list of highly active React meetups!"
-        />
+        <meta name="description" content="You will find highly active React." />
       </Head>
       <MeetupList meetups={props.meetups} />
     </>
