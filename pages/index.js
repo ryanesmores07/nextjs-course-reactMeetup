@@ -46,7 +46,7 @@ export const getStaticProps = async () => {
         id: meetup._id.toString(),
       })),
     },
-    revalidate: 300,
+    revalidate: 1,
   };
 };
 
